@@ -28,5 +28,6 @@ try:
 
     logger.remove(0)
     logger.add(lambda msg: tqdm.write(msg, end=""), colorize=True)
+    print("\nthis is config file and run this file.......")
 except ModuleNotFoundError:
     pass
